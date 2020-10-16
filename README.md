@@ -35,5 +35,8 @@ from mesa.space import MultiGrid
 - https://mesa.readthedocs.io/en/master/  
 - https://ichi.pro/mesa-no-shokai-python-de-no-e-jyento-be-su-no-moderingu-207465600654490  
 
+# example
+https://mesa.readthedocs.io/en/master/
+
 # memo(関係ある？)  
 - http://bin.t.u-tokyo.ac.jp/summercamp2015/document/game3_chika.pdf
