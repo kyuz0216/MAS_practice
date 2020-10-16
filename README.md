@@ -15,6 +15,21 @@ ModelとAgentを作成
 エージェントが活性化される順序を制御する特殊なモデルの構成要素  
 各々のモデルに記述する(def step:)  
 
+## Spatial Element  
+gridとcontinuousの２種類がある。  
+- grid・・・チェス盤みたいなセル上にエージェントを配置できる  
+    - SingleGrid・・・セルごとに1つのエージェントのみ配置できる  
+    - MultiGrid・・・同じセルに複数のエージェント配置できる  
+- continuous・・・連続空間の任意の場所にエージェントを配置できる  
+```
+from mesa.space import MultiGrid
+```
+
+## データコレクター  
+以下の三つのデータを保存する
+- モデルレベルの変数  
+- エージェントレベルの変数  
+- テーブル  
 
 # Reference
 - https://mesa.readthedocs.io/en/master/  
